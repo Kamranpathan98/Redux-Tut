@@ -28,6 +28,47 @@
   color: #61dafb;
 }
 
+/* Custom styling */
+.cart-logo img {
+  width: 45px;
+  position: absolute;
+  right: 1%;
+  top: 3%;
+}
+.cart-wrapper {
+  width: 350px;
+  height: 280px;
+  margin-left: 25px;
+  border: 2px solid gray;
+}
+.img-wrapper img {
+  width: 180px;
+}
+.text-wrapper span {
+  margin-top: 15px;
+  font-size: 18px;
+}
+.btn-wrapper button {
+  width: 150px;
+  padding: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+}
+.btn-wrapper button:hover {
+  color: white;
+  background-color: rgb(36, 35, 35);
+  opacity: 1;
+}
+
+.item {
+  float: left;
+  margin-top: 50px;
+}
+
+/* */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
